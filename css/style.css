@@ -400,3 +400,125 @@ footer p{
     transform:scale(1.05);
 
 }
+/* ===========================
+ABOUT PAGE
+=========================== */
+
+.lead{
+    font-size:18px;
+    line-height:1.8;
+}
+
+.card{
+    border-radius:18px;
+}
+
+.card-body{
+    padding:30px;
+}
+
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+section{
+    padding-top:70px;
+    padding-bottom:70px;
+}
+/* ===========================
+COURSES PAGE
+=========================== */
+
+.course-card img{
+    height:220px;
+    width:100%;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.course-card{
+    transition:0.3s;
+}
+
+.course-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 18px 35px rgba(0,0,0,0.18);
+}
+
+.course-card .card-body{
+    padding:25px;
+}
+.section-title{
+    margin-bottom:50px;
+}
+.table{
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    border-radius:10px;
+    overflow:hidden;
+}
+.table th{
+    background:#0B1F3A;
+    color:white;
+}
+.accordion-button{
+    font-weight:bold;
+}
+
+.accordion-button:not(.collapsed){
+    background:#0B1F3A;
+    color:white;
+}
+
+.accordion-body{
+    background:#f8f9fa;
+}
+.btn-warning{
+    padding:12px 30px;
+    border-radius:30px;
+    font-weight:bold;
+}
+/* ===========================
+ADMISSIONS PAGE
+=========================== */
+
+/* Eligibility & Documents Tables */
+
+.list-group{
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 12px 25px rgba(0,0,0,0.08);
+}
+
+.list-group-item{
+    padding:18px 22px;
+    font-size:17px;
+    border-color:#e8e8e8;
+    transition:0.3s;
+}
+
+.list-group-item:hover{
+    background:#FFF8E6;
+    padding-left:28px;
+}
+
+/* Better section headings */
+
+.admission-heading{
+    margin-bottom:35px;
+    text-align:center;
+}
+
+.admission-heading::after{
+    content:"";
+    display:block;
+    width:80px;
+    height:4px;
+    background:#D4AF37;
+    margin:15px auto 0;
+    border-radius:20px;
+}
