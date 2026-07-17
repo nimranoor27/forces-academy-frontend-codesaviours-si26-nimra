@@ -591,3 +591,35 @@ CONTACT PAGE
 textarea{
     resize:none;
 }
+.page-hero{
+
+    background: linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
+    url("../images/hero.jpg");
+
+    background-size: cover;
+
+    background-position:center;
+
+    color:white;
+
+    text-align:center;
+
+    padding:120px 0;
+
+}
+
+.page-hero h1{
+
+    font-size:55px;
+
+    font-weight:700;
+
+}
+
+.page-hero p{
+
+    font-size:20px;
+
+    margin-top:15px;
+
+}
