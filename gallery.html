@@ -101,31 +101,50 @@
 
         <div class="row g-4">
             <div class="col-md-4">
-    <img src="images/gallery1.jpg" class="img-fluid gallery-img" alt="Campus">
+    <img src="images/gallery1.jpg"
+     class="img-fluid gallery-img"
+     alt="Campus"
+     onclick="openLightbox(this.src)">
 </div>
 
 <div class="col-md-4">
-    <img src="images/gallery2.jpg" class="img-fluid gallery-img" alt="Classroom">
+    <img src="images/gallery2.jpg"
+     class="img-fluid gallery-img"
+     alt="Classroom"
+     onclick="openLightbox(this.src)">
 </div>
 
 <div class="col-md-4">
-    <img src="images/gallery3.jpg" class="img-fluid gallery-img" alt="Students">
+    <img src="images/gallery3.jpg"
+     class="img-fluid gallery-img"
+     alt="Students"
+     onclick="openLightbox(this.src)">
 </div>
 
 <div class="col-md-4">
-    <img src="images/gallery4.jpg" class="img-fluid gallery-img" alt="Laboratory">
+    <img src="images/gallery4.jpg"
+     class="img-fluid gallery-img"
+     alt="Laboratory"
+     onclick="openLightbox(this.src)">
 </div>
 
 <div class="col-md-4">
-    <img src="images/gallery5.jpg" class="img-fluid gallery-img" alt="Sports">
+    <img src="images/gallery5.jpg"
+     class="img-fluid gallery-img"
+     alt="Sports"
+     onclick="openLightbox(this.src)">
 </div>
 
 <div class="col-md-4">
-    <img src="images/gallery6.jpg" class="img-fluid gallery-img" alt="Graduation">
+    <img src="images/gallery6.jpg"
+     class="img-fluid gallery-img"
+     alt="Graduation"
+     onclick="openLightbox(this.src)">
 </div>
         </div>
 
     </div>
+    
 
 </section>
 <footer class="py-5 text-center text-white" style="background:#08172d;">
@@ -145,8 +164,11 @@
     </div>
 
 </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
 
+    <img id="lightbox-img" src="" alt="Gallery Image">
+
+</div>
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
