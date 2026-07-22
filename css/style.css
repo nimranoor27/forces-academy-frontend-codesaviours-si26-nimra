@@ -666,3 +666,23 @@ textarea{
 .success {
     border: 2px solid #198754 !important;
 }
+.carousel-item{
+    padding:20px 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    width:5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color:#D4AF37;
+    border-radius:50%;
+    padding:18px;
+}
+
+#testimonialCarousel .card{
+    min-height:260px;
+    border:none;
+}
