@@ -175,47 +175,50 @@ Get In Touch
                     Send Us a Message
                 </h3>
 
-                <form>
+                <form id="contactForm" novalidate>
 
                     <div class="mb-3">
 
                         <input type="text"
-                               class="form-control"
-                               placeholder="Your Name">
+       id="name"
+       class="form-control"
+       placeholder="Your Name"
+       required>
+                    </div>
+
+                    <div class="mb-3">
+
+                      <input type="email"
+       id="email"
+       class="form-control"
+       placeholder="Your Email"
+       required>
+                    </div>
+
+                    <div class="mb-3">
+
+                     <input type="text"
+       id="subject"
+       class="form-control"
+       placeholder="Subject"
+       required>
 
                     </div>
 
                     <div class="mb-3">
 
-                        <input type="email"
-                               class="form-control"
-                               placeholder="Your Email">
-
-                    </div>
-
-                    <div class="mb-3">
-
-                        <input type="text"
-                               class="form-control"
-                               placeholder="Subject">
-
-                    </div>
-
-                    <div class="mb-3">
-
-                        <textarea class="form-control"
-                                  rows="5"
-                                  placeholder="Your Message"></textarea>
-
+                    <textarea id="message"
+          class="form-control"
+          rows="5"
+          placeholder="Your Message"
+          required></textarea>
                     </div>
 
                     <div class="d-grid">
 
-                        <button class="hero-btn">
-
-                            Send Message
-
-                        </button>
+                       <button type="submit" class="hero-btn">
+    Send Message
+</button>
 
                     </div>
 

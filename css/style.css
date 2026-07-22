@@ -655,3 +655,14 @@ textarea{
 .gallery-img:hover{
     transform:scale(1.03);
 }
+/* ===========================
+   FORM VALIDATION
+=========================== */
+
+.error {
+    border: 2px solid #dc3545 !important;
+}
+
+.success {
+    border: 2px solid #198754 !important;
+}
