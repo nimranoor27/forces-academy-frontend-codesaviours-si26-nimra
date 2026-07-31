@@ -886,3 +886,9 @@ textarea{
         margin: 0 !important;
     }
 }
+.navbar-logo-icon{
+    color:#D4AF37;
+    font-size:2rem;
+    margin-right:10px;
+    margin-left:-6px;
+}
