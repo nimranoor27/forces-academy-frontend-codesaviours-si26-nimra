@@ -201,3 +201,26 @@ if(backToTop){
     });
 
 }
+const darkModeToggle = document.getElementById("darkModeToggle");
+const darkModeIcon = document.getElementById("darkModeIcon");
+const darkModeText = document.getElementById("darkModeText");
+
+if (localStorage.getItem("darkMode") === "enabled") {
+    document.body.classList.add("dark-mode");
+    darkModeIcon.className = "bi bi-sun-fill";
+    darkModeText.textContent = "Light Mode";
+}
+
+darkModeToggle.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        localStorage.setItem("darkMode", "enabled");
+        darkModeIcon.className = "bi bi-sun-fill";
+        darkModeText.textContent = "Light Mode";
+    } else {
+        localStorage.setItem("darkMode", "disabled");
+        darkModeIcon.className = "bi bi-moon-fill";
+        darkModeText.textContent = "Dark Mode";
+    }
+});
